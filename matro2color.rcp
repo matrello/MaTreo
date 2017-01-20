@@ -1,0 +1,158 @@
+/*
+	MaTreo
+	Code by Matro
+	Rome, Italy, 5-2002
+
+	designed for Handspring Treo (PalmOS3.5H)
+*/
+
+#include "matro2_res.h"
+
+BITMAPCOLOR ID RP  "rp256.bmp"
+BITMAPCOLOR ID CLOCKCIRCLE  "clockcircle_256.bmp"
+BITMAPCOLOR ID BATTERY  "battery_256.bmp"
+DATA "data" ID BARSPALETTE  "palettebarscolor"
+
+ICONFAMILY "computer_22x22x1.bmp" "computer_22x22x2.bmp" "computer_22x22x4_256.bmp" "computer_22x22x8_256.bmp"
+SMALLICONFAMILY "computer_15x9x1.bmp" "computer_15x9x2.bmp" "computer_15x9x4_256.bmp" "computer_15x9x8_256.bmp"
+
+
+
+
+
+MENU ID mnufrmMain
+BEGIN
+	PULLDOWN "Menu"
+	BEGIN
+		MENUITEM "Options..." ID mnuOptions  "O"
+		MENUITEM "About" ID mnuAbout
+	END
+END
+
+
+
+ALERT ID altAbout 
+INFORMATION
+BEGIN
+	TITLE "about MaTreo"
+	MESSAGE "MaTreo v1.2\n\nwritten by Matro\nRome (Italy)\n\nrealpopup.it/matreo\nmatreo@realpopup.it"
+	BUTTONS "OK" "Greets" "Thanks"  
+END
+
+
+ALERT ID altGreets 
+INFORMATION
+BEGIN
+	TITLE "MaTreo greets"
+	MESSAGE "kisses to Anna! :)\n\ngreetings to Gabba, Neural, Outcast and MaxAg.\n\nplease support freeware!"
+	BUTTONS "that's good!" 
+END
+
+ALERT ID altThanks 
+INFORMATION
+BEGIN
+	TITLE "MaTreo thanks"
+	MESSAGE "really thanks to Joerg for color gfx and to Gabba for web gfx.\n\nthanks to Aaron, Ashe, Jens, Scott and Yamada for help with PalmOS.\n\nthanks to all MaTreo v1.0 fans!"
+	BUTTONS "that's good!" 
+END
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+FORM ID frmMain AT (0 0 160 160)
+MENUID mnufrmMain NOFRAME
+BEGIN
+	 	
+	
+	LABEL "                          " ID lbCARRIER       AT (0 4) FONT 7
+	LABEL "                                 " ID lbCLOCK  AT (14 148) FONT 1  
+	
+	GADGET ID YOMEN  AT (126 4 48 20) NONUSABLE
+	LABEL "                           " ID lbROAMING         AT (0 20) FONT 0
+	LABEL "                    " ID evcnt    AT (2 109) FONT 0
+	LABEL "                    " ID ev0      AT (2 118) FONT 0
+	LABEL "                    " ID ev1      AT (2 127) FONT 0
+	LABEL "                    " ID ev2      AT (2 136) FONT 0
+	
+END
+
+
+VERSION ID 1 "1.2"
+
+FORM ID frmOptions   AT ( 2 0 156 158 )
+MODAL USABLE DEFAULTBTNID OPTIONS_OK BEGIN
+        TITLE "MaTreo options"
+	BUTTON "OK" ID OPTIONS_OK   AT (62 140 41 14)
+	BUTTON "Cancel" ID OPTIONS_CANCEL   AT (110 140 41 14)
+	LABEL "Title" AUTOID AT (4 14) FONT 1
+	FIELD ID OPTIONS_TITLE   AT (34 14 112 12) MAXCHARS 20 EDITABLE UNDERLINED LABEL "from" AUTOID AT (20 116) FONT 0
+	
+	LABEL "to" ID OPTIONS_BACKLIGHT_LBTO    AT (92 116) FONT 0
+	
+	FORMBITMAP AT (3 128) BITMAP RP
+	SELECTORTRIGGER  "        " ID OPTIONS_BACKLIGHT_FROM    AT (44 116 44 12) LEFTANCHOR
+	CHECKBOX "Backlight on" ID OPTIONS_BACKLIGHT  AT (4 102 144 11) FONT 1
+	SELECTORTRIGGER  "        " ID OPTIONS_BACKLIGHT_TO    AT (106 116 44 12) LEFTANCHOR
+	CHECKBOX "Show wireless infos" ID OPTIONS_WIRELESS    AT (4 88 144 11) FONT 1
+
+	LABEL "Switch to" AUTOID AT (4 27) FONT 1	
+	POPUPTRIGGER "" ID OPTIONS_SWITCHAPP  AT (55 27 82 12)
+	LIST ""             ID OPTIONS_APPLIST  AT (68 16 64 88) VISIBLEITEMS 8 NONUSABLE
+	POPUPLIST ID OPTIONS_SWITCHAPP  OPTIONS_APPLIST
+
+	CHECKBOX "When tap the screen" OPTIONS_SWITCHAPP_TAP AT (16 39 132 12)
+	CHECKBOX "After" OPTIONS_SWITCHAPP_SEC AT (16 51 40 12)
+	FIELD OPTIONS_SWITCHAPP_SECNUM AT (57 51 11 12) MAXCHARS 2 EDITABLE NUMERIC UNDERLINED
+	LABEL "second(s)" AUTOID AT (71 51) FONT 0
+	
+	LABEL "Switch to" AUTOID AT (4 64) FONT 1
+	CHECKBOX "When click Jog wheel" OPTIONS_SWITCHAPP_JOG AT (16 76 132 12)
+
+	POPUPTRIGGER "" ID OPTIONS_SWITCHAPPJOG  AT (55 64 82 12)
+	LIST ""             ID OPTIONS_APPLISTJOG  AT (68 53 64 88) VISIBLEITEMS 8 NONUSABLE
+	POPUPLIST ID OPTIONS_SWITCHAPPJOG  OPTIONS_APPLISTJOG
+
+END
+
+
+
+
+
+
+
+
+
+ALERT ID altAlert 
+WARNING
+BEGIN
+     TITLE "MaTreo alert"
+     MESSAGE "^1"
+     BUTTONS "OK" 
+END
+
+ALERT ID altInfo   
+INFORMATION
+BEGIN
+     TITLE "MaTreo information"
+     MESSAGE "^1"
+     BUTTONS "OK" 
+END
+
+
+

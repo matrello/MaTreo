@@ -1,0 +1,475 @@
+<FNProject VERSION="2.0" NAME="matro2">
+    <FILE FILENAME="makefile">
+        <CONFIGURATIONS DEFAULT="-1">
+            <CONFIGURATION NAME="Debug">
+                <SETTING ExcludeFromBuild="1"></SETTING>
+                <SETTING UseCustomBuildStep="1"></SETTING>
+                <SETTING cbOptimalization="-1"></SETTING>
+                <SETTING chkDebugInfo="1"></SETTING>
+                <SETTING WarningLevel="-1"></SETTING>
+                <SETTING chkWarningsAsErrors="0"></SETTING>
+                <SETTING DatabaseFunctionality_{01D20182-D705-4B32-B471-F7C221A9EF80}="0"></SETTING>
+                <SETTING DatabaseFunctionality_{B55ECED2-DB5B-45B2-AADA-0C93EE5F339A}="0"></SETTING>
+                <SETTING DatabaseFunctionality_{D91911BC-666B-4A98-9B56-72B146422A54}="0"></SETTING>
+                <SETTING CbxCustomBuildIncludeInBuildPRC="0"></SETTING>
+                </CONFIGURATION>
+            <CONFIGURATION NAME="Release"></CONFIGURATION>
+            </CONFIGURATIONS>
+        </FILE>
+    <FOLDER NAME="Source">
+        <FILE FILENAME="main.c">
+            <CONFIGURATIONS DEFAULT="-1">
+                <CONFIGURATION NAME="Debug">
+                    <SETTING ExcludeFromBuild="0"></SETTING>
+                    <SETTING UseCustomBuildStep="0"></SETTING>
+                    <SETTING WarningLevel="0"></SETTING>
+                    <SETTING chkDebugInfo="1"></SETTING>
+                    <SETTING cbOptimalization="5"></SETTING>
+                    <SETTING Dependencies=""></SETTING>
+                    <SETTING chkWarningsAsErrors="0"></SETTING>
+                    <SETTING DatabaseFunctionality_{01D20182-D705-4B32-B471-F7C221A9EF80}="0"></SETTING>
+                    <SETTING DatabaseFunctionality_{B55ECED2-DB5B-45B2-AADA-0C93EE5F339A}="0"></SETTING>
+                    <SETTING DatabaseFunctionality_{D91911BC-666B-4A98-9B56-72B146422A54}="0"></SETTING>
+                    <SETTING CbxCustomBuildIncludeInBuildPRC="0"></SETTING>
+                    <SETTING memoGCCIncludeSearchPaths="C:\Program Files\Falch.net\DeveloperStudio 2.6\PalmDev\Sdk-4.0\include\Handspring"></SETTING>
+                    <SETTING txtDefines=""></SETTING>
+                    </CONFIGURATION>
+                <CONFIGURATION NAME="Release">
+                    <SETTING ExcludeFromBuild="0"></SETTING>
+                    <SETTING UseCustomBuildStep="0"></SETTING>
+                    <SETTING WarningLevel="0"></SETTING>
+                    <SETTING chkDebugInfo="0"></SETTING>
+                    <SETTING cbOptimalization="2"></SETTING>
+                    <SETTING Dependencies="matro2.h&#xD;&#xA;matro2_res.h"></SETTING>
+                    <SETTING chkWarningsAsErrors="0"></SETTING>
+                    <SETTING DatabaseFunctionality_{01D20182-D705-4B32-B471-F7C221A9EF80}="0"></SETTING>
+                    <SETTING DatabaseFunctionality_{B55ECED2-DB5B-45B2-AADA-0C93EE5F339A}="0"></SETTING>
+                    <SETTING DatabaseFunctionality_{D91911BC-666B-4A98-9B56-72B146422A54}="0"></SETTING>
+                    <SETTING CbxCustomBuildIncludeInBuildPRC="0"></SETTING>
+                    <SETTING memoGCCIncludeSearchPaths="C:\Program Files\Falch.net\DeveloperStudio 2.6\PalmDev\Sdk-4.0\include\Handspring"></SETTING>
+                    <SETTING txtDefines="ERROR_CHECK_LEVEL=2"></SETTING>
+                    </CONFIGURATION>
+                </CONFIGURATIONS>
+            </FILE>
+        <FILE FILENAME="frmMain.c">
+            <CONFIGURATIONS DEFAULT="-1">
+                <CONFIGURATION NAME="Debug">
+                    <SETTING ExcludeFromBuild="0"></SETTING>
+                    <SETTING UseCustomBuildStep="0"></SETTING>
+                    <SETTING WarningLevel="0"></SETTING>
+                    <SETTING chkDebugInfo="1"></SETTING>
+                    <SETTING cbOptimalization="5"></SETTING>
+                    <SETTING Dependencies=""></SETTING>
+                    <SETTING chkWarningsAsErrors="0"></SETTING>
+                    <SETTING DatabaseFunctionality_{01D20182-D705-4B32-B471-F7C221A9EF80}="0"></SETTING>
+                    <SETTING DatabaseFunctionality_{B55ECED2-DB5B-45B2-AADA-0C93EE5F339A}="0"></SETTING>
+                    <SETTING DatabaseFunctionality_{D91911BC-666B-4A98-9B56-72B146422A54}="0"></SETTING>
+                    <SETTING CbxCustomBuildIncludeInBuildPRC="0"></SETTING>
+                    <SETTING memoGCCIncludeSearchPaths="C:\Program Files\Falch.net\DeveloperStudio 2.6\PalmDev\Sdk-4.0\include\Handspring"></SETTING>
+                    <SETTING txtDefines=""></SETTING>
+                    </CONFIGURATION>
+                <CONFIGURATION NAME="Release">
+                    <SETTING ExcludeFromBuild="0"></SETTING>
+                    <SETTING UseCustomBuildStep="0"></SETTING>
+                    <SETTING WarningLevel="0"></SETTING>
+                    <SETTING chkDebugInfo="0"></SETTING>
+                    <SETTING cbOptimalization="2"></SETTING>
+                    <SETTING Dependencies="matro2.h&#xD;&#xA;matro2_res.h"></SETTING>
+                    <SETTING chkWarningsAsErrors="0"></SETTING>
+                    <SETTING DatabaseFunctionality_{01D20182-D705-4B32-B471-F7C221A9EF80}="0"></SETTING>
+                    <SETTING DatabaseFunctionality_{B55ECED2-DB5B-45B2-AADA-0C93EE5F339A}="0"></SETTING>
+                    <SETTING DatabaseFunctionality_{D91911BC-666B-4A98-9B56-72B146422A54}="0"></SETTING>
+                    <SETTING CbxCustomBuildIncludeInBuildPRC="0"></SETTING>
+                    <SETTING memoGCCIncludeSearchPaths="C:\Program Files\Falch.net\DeveloperStudio 2.6\PalmDev\Sdk-4.0\include\Handspring"></SETTING>
+                    <SETTING txtDefines="ERROR_CHECK_LEVEL=2"></SETTING>
+                    </CONFIGURATION>
+                </CONFIGURATIONS>
+            </FILE>
+        <FILE FILENAME="device.c">
+            <CONFIGURATIONS DEFAULT="-1">
+                <CONFIGURATION NAME="Debug">
+                    <SETTING ExcludeFromBuild="0"></SETTING>
+                    <SETTING UseCustomBuildStep="0"></SETTING>
+                    <SETTING WarningLevel="0"></SETTING>
+                    <SETTING chkDebugInfo="1"></SETTING>
+                    <SETTING cbOptimalization="5"></SETTING>
+                    <SETTING Dependencies=""></SETTING>
+                    <SETTING chkWarningsAsErrors="0"></SETTING>
+                    <SETTING DatabaseFunctionality_{01D20182-D705-4B32-B471-F7C221A9EF80}="0"></SETTING>
+                    <SETTING DatabaseFunctionality_{B55ECED2-DB5B-45B2-AADA-0C93EE5F339A}="0"></SETTING>
+                    <SETTING DatabaseFunctionality_{D91911BC-666B-4A98-9B56-72B146422A54}="0"></SETTING>
+                    <SETTING CbxCustomBuildIncludeInBuildPRC="0"></SETTING>
+                    <SETTING memoGCCIncludeSearchPaths="C:\Program Files\Falch.net\DeveloperStudio 2.6\PalmDev\Sdk-4.0\include\Handspring"></SETTING>
+                    <SETTING txtDefines=""></SETTING>
+                    </CONFIGURATION>
+                <CONFIGURATION NAME="Release">
+                    <SETTING ExcludeFromBuild="0"></SETTING>
+                    <SETTING UseCustomBuildStep="0"></SETTING>
+                    <SETTING WarningLevel="0"></SETTING>
+                    <SETTING chkDebugInfo="0"></SETTING>
+                    <SETTING cbOptimalization="2"></SETTING>
+                    <SETTING Dependencies="matro2.h&#xD;&#xA;device.h"></SETTING>
+                    <SETTING chkWarningsAsErrors="0"></SETTING>
+                    <SETTING DatabaseFunctionality_{01D20182-D705-4B32-B471-F7C221A9EF80}="0"></SETTING>
+                    <SETTING DatabaseFunctionality_{B55ECED2-DB5B-45B2-AADA-0C93EE5F339A}="0"></SETTING>
+                    <SETTING DatabaseFunctionality_{D91911BC-666B-4A98-9B56-72B146422A54}="0"></SETTING>
+                    <SETTING CbxCustomBuildIncludeInBuildPRC="0"></SETTING>
+                    <SETTING memoGCCIncludeSearchPaths="C:\Program Files\Falch.net\DeveloperStudio 2.6\PalmDev\Sdk-4.0\include\Handspring"></SETTING>
+                    <SETTING txtDefines="ERROR_CHECK_LEVEL=2"></SETTING>
+                    </CONFIGURATION>
+                </CONFIGURATIONS>
+            </FILE>
+        <FILE FILENAME="graphics.c">
+            <CONFIGURATIONS DEFAULT="-1">
+                <CONFIGURATION NAME="Debug">
+                    <SETTING ExcludeFromBuild="0"></SETTING>
+                    <SETTING UseCustomBuildStep="0"></SETTING>
+                    <SETTING WarningLevel="0"></SETTING>
+                    <SETTING chkDebugInfo="1"></SETTING>
+                    <SETTING cbOptimalization="5"></SETTING>
+                    <SETTING Dependencies=""></SETTING>
+                    <SETTING chkWarningsAsErrors="0"></SETTING>
+                    <SETTING DatabaseFunctionality_{01D20182-D705-4B32-B471-F7C221A9EF80}="0"></SETTING>
+                    <SETTING DatabaseFunctionality_{B55ECED2-DB5B-45B2-AADA-0C93EE5F339A}="0"></SETTING>
+                    <SETTING DatabaseFunctionality_{D91911BC-666B-4A98-9B56-72B146422A54}="0"></SETTING>
+                    <SETTING CbxCustomBuildIncludeInBuildPRC="0"></SETTING>
+                    <SETTING memoGCCIncludeSearchPaths="C:\Program Files\Falch.net\DeveloperStudio 2.6\PalmDev\Sdk-4.0\include\Handspring"></SETTING>
+                    <SETTING txtDefines=""></SETTING>
+                    </CONFIGURATION>
+                <CONFIGURATION NAME="Release">
+                    <SETTING ExcludeFromBuild="0"></SETTING>
+                    <SETTING UseCustomBuildStep="0"></SETTING>
+                    <SETTING WarningLevel="0"></SETTING>
+                    <SETTING chkDebugInfo="0"></SETTING>
+                    <SETTING cbOptimalization="2"></SETTING>
+                    <SETTING Dependencies="graphics.h"></SETTING>
+                    <SETTING chkWarningsAsErrors="0"></SETTING>
+                    <SETTING DatabaseFunctionality_{01D20182-D705-4B32-B471-F7C221A9EF80}="0"></SETTING>
+                    <SETTING DatabaseFunctionality_{B55ECED2-DB5B-45B2-AADA-0C93EE5F339A}="0"></SETTING>
+                    <SETTING DatabaseFunctionality_{D91911BC-666B-4A98-9B56-72B146422A54}="0"></SETTING>
+                    <SETTING CbxCustomBuildIncludeInBuildPRC="0"></SETTING>
+                    <SETTING memoGCCIncludeSearchPaths="C:\Program Files\Falch.net\DeveloperStudio 2.6\PalmDev\Sdk-4.0\include\Handspring"></SETTING>
+                    <SETTING txtDefines="ERROR_CHECK_LEVEL=2"></SETTING>
+                    </CONFIGURATION>
+                </CONFIGURATIONS>
+            </FILE>
+        <FILE FILENAME="anim.c">
+            <CONFIGURATIONS DEFAULT="-1">
+                <CONFIGURATION NAME="Debug">
+                    <SETTING ExcludeFromBuild="0"></SETTING>
+                    <SETTING UseCustomBuildStep="0"></SETTING>
+                    <SETTING WarningLevel="0"></SETTING>
+                    <SETTING chkDebugInfo="1"></SETTING>
+                    <SETTING cbOptimalization="5"></SETTING>
+                    <SETTING Dependencies=""></SETTING>
+                    <SETTING chkWarningsAsErrors="0"></SETTING>
+                    <SETTING DatabaseFunctionality_{01D20182-D705-4B32-B471-F7C221A9EF80}="0"></SETTING>
+                    <SETTING DatabaseFunctionality_{B55ECED2-DB5B-45B2-AADA-0C93EE5F339A}="0"></SETTING>
+                    <SETTING DatabaseFunctionality_{D91911BC-666B-4A98-9B56-72B146422A54}="0"></SETTING>
+                    <SETTING CbxCustomBuildIncludeInBuildPRC="0"></SETTING>
+                    <SETTING memoGCCIncludeSearchPaths="C:\Program Files\Falch.net\DeveloperStudio 2.6\PalmDev\Sdk-4.0\include\Handspring"></SETTING>
+                    <SETTING txtDefines=""></SETTING>
+                    </CONFIGURATION>
+                <CONFIGURATION NAME="Release">
+                    <SETTING ExcludeFromBuild="0"></SETTING>
+                    <SETTING UseCustomBuildStep="0"></SETTING>
+                    <SETTING WarningLevel="0"></SETTING>
+                    <SETTING chkDebugInfo="0"></SETTING>
+                    <SETTING cbOptimalization="2"></SETTING>
+                    <SETTING Dependencies="matro2.h&#xD;&#xA;device.h&#xD;&#xA;graphics.h"></SETTING>
+                    <SETTING chkWarningsAsErrors="0"></SETTING>
+                    <SETTING DatabaseFunctionality_{01D20182-D705-4B32-B471-F7C221A9EF80}="0"></SETTING>
+                    <SETTING DatabaseFunctionality_{B55ECED2-DB5B-45B2-AADA-0C93EE5F339A}="0"></SETTING>
+                    <SETTING DatabaseFunctionality_{D91911BC-666B-4A98-9B56-72B146422A54}="0"></SETTING>
+                    <SETTING CbxCustomBuildIncludeInBuildPRC="0"></SETTING>
+                    <SETTING memoGCCIncludeSearchPaths="C:\Program Files\Falch.net\DeveloperStudio 2.6\PalmDev\Sdk-4.0\include\Handspring"></SETTING>
+                    <SETTING txtDefines="ERROR_CHECK_LEVEL=2"></SETTING>
+                    </CONFIGURATION>
+                </CONFIGURATIONS>
+            </FILE>
+        <FILE FILENAME="sysstuff.c">
+            <CONFIGURATIONS DEFAULT="-1">
+                <CONFIGURATION NAME="Debug">
+                    <SETTING ExcludeFromBuild="0"></SETTING>
+                    <SETTING UseCustomBuildStep="0"></SETTING>
+                    <SETTING WarningLevel="0"></SETTING>
+                    <SETTING chkDebugInfo="1"></SETTING>
+                    <SETTING cbOptimalization="5"></SETTING>
+                    <SETTING Dependencies=""></SETTING>
+                    <SETTING chkWarningsAsErrors="0"></SETTING>
+                    <SETTING DatabaseFunctionality_{01D20182-D705-4B32-B471-F7C221A9EF80}="0"></SETTING>
+                    <SETTING DatabaseFunctionality_{B55ECED2-DB5B-45B2-AADA-0C93EE5F339A}="0"></SETTING>
+                    <SETTING DatabaseFunctionality_{D91911BC-666B-4A98-9B56-72B146422A54}="0"></SETTING>
+                    <SETTING CbxCustomBuildIncludeInBuildPRC="0"></SETTING>
+                    <SETTING memoGCCIncludeSearchPaths="C:\Program Files\Falch.net\DeveloperStudio 2.6\PalmDev\Sdk-4.0\include\Handspring"></SETTING>
+                    <SETTING txtDefines=""></SETTING>
+                    </CONFIGURATION>
+                <CONFIGURATION NAME="Release">
+                    <SETTING ExcludeFromBuild="0"></SETTING>
+                    <SETTING UseCustomBuildStep="0"></SETTING>
+                    <SETTING WarningLevel="0"></SETTING>
+                    <SETTING chkDebugInfo="0"></SETTING>
+                    <SETTING cbOptimalization="2"></SETTING>
+                    <SETTING Dependencies="matro2.h&#xD;&#xA;matro2_res.h"></SETTING>
+                    <SETTING chkWarningsAsErrors="0"></SETTING>
+                    <SETTING DatabaseFunctionality_{01D20182-D705-4B32-B471-F7C221A9EF80}="0"></SETTING>
+                    <SETTING DatabaseFunctionality_{B55ECED2-DB5B-45B2-AADA-0C93EE5F339A}="0"></SETTING>
+                    <SETTING DatabaseFunctionality_{D91911BC-666B-4A98-9B56-72B146422A54}="0"></SETTING>
+                    <SETTING CbxCustomBuildIncludeInBuildPRC="0"></SETTING>
+                    <SETTING memoGCCIncludeSearchPaths="C:\Program Files\Falch.net\DeveloperStudio 2.6\PalmDev\Sdk-4.0\include\Handspring"></SETTING>
+                    <SETTING txtDefines="ERROR_CHECK_LEVEL=2"></SETTING>
+                    </CONFIGURATION>
+                </CONFIGURATIONS>
+            </FILE>
+        <FILE FILENAME="MathLib.c">
+            <CONFIGURATIONS DEFAULT="-1">
+                <CONFIGURATION NAME="Debug">
+                    <SETTING ExcludeFromBuild="0"></SETTING>
+                    <SETTING UseCustomBuildStep="0"></SETTING>
+                    <SETTING WarningLevel="0"></SETTING>
+                    <SETTING chkDebugInfo="1"></SETTING>
+                    <SETTING cbOptimalization="5"></SETTING>
+                    <SETTING Dependencies=""></SETTING>
+                    <SETTING chkWarningsAsErrors="0"></SETTING>
+                    <SETTING DatabaseFunctionality_{01D20182-D705-4B32-B471-F7C221A9EF80}="0"></SETTING>
+                    <SETTING DatabaseFunctionality_{B55ECED2-DB5B-45B2-AADA-0C93EE5F339A}="0"></SETTING>
+                    <SETTING DatabaseFunctionality_{D91911BC-666B-4A98-9B56-72B146422A54}="0"></SETTING>
+                    <SETTING CbxCustomBuildIncludeInBuildPRC="0"></SETTING>
+                    <SETTING txtDefines=""></SETTING>
+                    </CONFIGURATION>
+                <CONFIGURATION NAME="Release">
+                    <SETTING ExcludeFromBuild="0"></SETTING>
+                    <SETTING UseCustomBuildStep="0"></SETTING>
+                    <SETTING WarningLevel="0"></SETTING>
+                    <SETTING chkDebugInfo="0"></SETTING>
+                    <SETTING cbOptimalization="2"></SETTING>
+                    <SETTING Dependencies="../../../../../Documents\ and\ Settings/matro/My\ Documents/Falch/matro2/MathLib.h"></SETTING>
+                    <SETTING chkWarningsAsErrors="0"></SETTING>
+                    <SETTING DatabaseFunctionality_{01D20182-D705-4B32-B471-F7C221A9EF80}="0"></SETTING>
+                    <SETTING DatabaseFunctionality_{B55ECED2-DB5B-45B2-AADA-0C93EE5F339A}="0"></SETTING>
+                    <SETTING DatabaseFunctionality_{D91911BC-666B-4A98-9B56-72B146422A54}="0"></SETTING>
+                    <SETTING CbxCustomBuildIncludeInBuildPRC="0"></SETTING>
+                    <SETTING txtDefines="ERROR_CHECK_LEVEL=2"></SETTING>
+                    </CONFIGURATION>
+                </CONFIGURATIONS>
+            </FILE>
+        <FILE FILENAME="frmOptions.c">
+            <CONFIGURATIONS DEFAULT="-1">
+                <CONFIGURATION NAME="Debug">
+                    <SETTING ExcludeFromBuild="0"></SETTING>
+                    <SETTING UseCustomBuildStep="0"></SETTING>
+                    <SETTING WarningLevel="0"></SETTING>
+                    <SETTING chkDebugInfo="1"></SETTING>
+                    <SETTING cbOptimalization="5"></SETTING>
+                    <SETTING Dependencies=""></SETTING>
+                    <SETTING chkWarningsAsErrors="0"></SETTING>
+                    <SETTING DatabaseFunctionality_{01D20182-D705-4B32-B471-F7C221A9EF80}="0"></SETTING>
+                    <SETTING DatabaseFunctionality_{B55ECED2-DB5B-45B2-AADA-0C93EE5F339A}="0"></SETTING>
+                    <SETTING DatabaseFunctionality_{D91911BC-666B-4A98-9B56-72B146422A54}="0"></SETTING>
+                    <SETTING CbxCustomBuildIncludeInBuildPRC="0"></SETTING>
+                    <SETTING memoGCCIncludeSearchPaths="C:\Program Files\Falch.net\DeveloperStudio 2.6\PalmDev\Sdk-4.0\include\Handspring"></SETTING>
+                    </CONFIGURATION>
+                <CONFIGURATION NAME="Release">
+                    <SETTING ExcludeFromBuild="0"></SETTING>
+                    <SETTING UseCustomBuildStep="0"></SETTING>
+                    <SETTING WarningLevel="0"></SETTING>
+                    <SETTING chkDebugInfo="0"></SETTING>
+                    <SETTING cbOptimalization="2"></SETTING>
+                    <SETTING memoGCCIncludeSearchPaths="C:\Program Files\Falch.net\DeveloperStudio 2.6\PalmDev\Sdk-4.0\include\Handspring"></SETTING>
+                    <SETTING Dependencies="sysstuff.h&#xD;&#xA;mathlib.h&#xD;&#xA;device.h&#xD;&#xA;graphics.h&#xD;&#xA;matro2.h&#xD;&#xA;matro2_res.h"></SETTING>
+                    <SETTING chkWarningsAsErrors="0"></SETTING>
+                    <SETTING DatabaseFunctionality_{01D20182-D705-4B32-B471-F7C221A9EF80}="0"></SETTING>
+                    <SETTING DatabaseFunctionality_{B55ECED2-DB5B-45B2-AADA-0C93EE5F339A}="0"></SETTING>
+                    <SETTING DatabaseFunctionality_{D91911BC-666B-4A98-9B56-72B146422A54}="0"></SETTING>
+                    <SETTING CbxCustomBuildIncludeInBuildPRC="0"></SETTING>
+                    <SETTING txtDefines="ERROR_CHECK_LEVEL=2"></SETTING>
+                    </CONFIGURATION>
+                </CONFIGURATIONS>
+            </FILE>
+        </FOLDER>
+    <FOLDER NAME="Headers">
+        <FILE FILENAME="matro2.h">
+            <CONFIGURATIONS DEFAULT="-1">
+                <CONFIGURATION NAME="Debug">
+                    <SETTING ExcludeFromBuild="1"></SETTING>
+                    <SETTING UseCustomBuildStep="1"></SETTING>
+                    <SETTING cbOptimalization="-1"></SETTING>
+                    <SETTING chkDebugInfo="1"></SETTING>
+                    <SETTING WarningLevel="-1"></SETTING>
+                    <SETTING chkWarningsAsErrors="0"></SETTING>
+                    <SETTING DatabaseFunctionality_{01D20182-D705-4B32-B471-F7C221A9EF80}="0"></SETTING>
+                    <SETTING DatabaseFunctionality_{B55ECED2-DB5B-45B2-AADA-0C93EE5F339A}="0"></SETTING>
+                    <SETTING DatabaseFunctionality_{D91911BC-666B-4A98-9B56-72B146422A54}="0"></SETTING>
+                    <SETTING CbxCustomBuildIncludeInBuildPRC="0"></SETTING>
+                    </CONFIGURATION>
+                <CONFIGURATION NAME="Release"></CONFIGURATION>
+                </CONFIGURATIONS>
+            </FILE>
+        <FILE FILENAME="matro2_res.h">
+            <CONFIGURATIONS DEFAULT="-1">
+                <CONFIGURATION NAME="Debug">
+                    <SETTING ExcludeFromBuild="1"></SETTING>
+                    <SETTING UseCustomBuildStep="1"></SETTING>
+                    <SETTING cbOptimalization="-1"></SETTING>
+                    <SETTING chkDebugInfo="1"></SETTING>
+                    <SETTING WarningLevel="-1"></SETTING>
+                    <SETTING chkWarningsAsErrors="0"></SETTING>
+                    <SETTING DatabaseFunctionality_{01D20182-D705-4B32-B471-F7C221A9EF80}="0"></SETTING>
+                    <SETTING DatabaseFunctionality_{B55ECED2-DB5B-45B2-AADA-0C93EE5F339A}="0"></SETTING>
+                    <SETTING DatabaseFunctionality_{D91911BC-666B-4A98-9B56-72B146422A54}="0"></SETTING>
+                    <SETTING CbxCustomBuildIncludeInBuildPRC="0"></SETTING>
+                    </CONFIGURATION>
+                <CONFIGURATION NAME="Release"></CONFIGURATION>
+                </CONFIGURATIONS>
+            </FILE>
+        <FILE FILENAME="device.h">
+            <CONFIGURATIONS DEFAULT="-1">
+                <CONFIGURATION NAME="Debug">
+                    <SETTING ExcludeFromBuild="1"></SETTING>
+                    <SETTING UseCustomBuildStep="1"></SETTING>
+                    <SETTING cbOptimalization="-1"></SETTING>
+                    <SETTING chkDebugInfo="1"></SETTING>
+                    <SETTING WarningLevel="-1"></SETTING>
+                    <SETTING chkWarningsAsErrors="0"></SETTING>
+                    <SETTING DatabaseFunctionality_{01D20182-D705-4B32-B471-F7C221A9EF80}="0"></SETTING>
+                    <SETTING DatabaseFunctionality_{B55ECED2-DB5B-45B2-AADA-0C93EE5F339A}="0"></SETTING>
+                    <SETTING DatabaseFunctionality_{D91911BC-666B-4A98-9B56-72B146422A54}="0"></SETTING>
+                    <SETTING CbxCustomBuildIncludeInBuildPRC="0"></SETTING>
+                    </CONFIGURATION>
+                <CONFIGURATION NAME="Release"></CONFIGURATION>
+                </CONFIGURATIONS>
+            </FILE>
+        <FILE FILENAME="graphics.h">
+            <CONFIGURATIONS DEFAULT="-1">
+                <CONFIGURATION NAME="Debug">
+                    <SETTING ExcludeFromBuild="1"></SETTING>
+                    <SETTING UseCustomBuildStep="1"></SETTING>
+                    <SETTING cbOptimalization="-1"></SETTING>
+                    <SETTING chkDebugInfo="1"></SETTING>
+                    <SETTING WarningLevel="-1"></SETTING>
+                    <SETTING chkWarningsAsErrors="0"></SETTING>
+                    <SETTING DatabaseFunctionality_{01D20182-D705-4B32-B471-F7C221A9EF80}="0"></SETTING>
+                    <SETTING DatabaseFunctionality_{B55ECED2-DB5B-45B2-AADA-0C93EE5F339A}="0"></SETTING>
+                    <SETTING DatabaseFunctionality_{D91911BC-666B-4A98-9B56-72B146422A54}="0"></SETTING>
+                    <SETTING CbxCustomBuildIncludeInBuildPRC="0"></SETTING>
+                    </CONFIGURATION>
+                <CONFIGURATION NAME="Release"></CONFIGURATION>
+                </CONFIGURATIONS>
+            </FILE>
+        <FILE FILENAME="anim.h">
+            <CONFIGURATIONS DEFAULT="-1">
+                <CONFIGURATION NAME="Debug">
+                    <SETTING ExcludeFromBuild="1"></SETTING>
+                    <SETTING UseCustomBuildStep="1"></SETTING>
+                    <SETTING cbOptimalization="-1"></SETTING>
+                    <SETTING chkDebugInfo="1"></SETTING>
+                    <SETTING WarningLevel="-1"></SETTING>
+                    <SETTING chkWarningsAsErrors="0"></SETTING>
+                    <SETTING DatabaseFunctionality_{01D20182-D705-4B32-B471-F7C221A9EF80}="0"></SETTING>
+                    <SETTING DatabaseFunctionality_{B55ECED2-DB5B-45B2-AADA-0C93EE5F339A}="0"></SETTING>
+                    <SETTING DatabaseFunctionality_{D91911BC-666B-4A98-9B56-72B146422A54}="0"></SETTING>
+                    <SETTING CbxCustomBuildIncludeInBuildPRC="0"></SETTING>
+                    </CONFIGURATION>
+                <CONFIGURATION NAME="Release"></CONFIGURATION>
+                </CONFIGURATIONS>
+            </FILE>
+        <FILE FILENAME="sysstuff.h">
+            <CONFIGURATIONS DEFAULT="-1">
+                <CONFIGURATION NAME="Debug">
+                    <SETTING ExcludeFromBuild="1"></SETTING>
+                    <SETTING UseCustomBuildStep="1"></SETTING>
+                    <SETTING cbOptimalization="-1"></SETTING>
+                    <SETTING chkDebugInfo="1"></SETTING>
+                    <SETTING WarningLevel="-1"></SETTING>
+                    <SETTING chkWarningsAsErrors="0"></SETTING>
+                    <SETTING DatabaseFunctionality_{01D20182-D705-4B32-B471-F7C221A9EF80}="0"></SETTING>
+                    <SETTING DatabaseFunctionality_{B55ECED2-DB5B-45B2-AADA-0C93EE5F339A}="0"></SETTING>
+                    <SETTING DatabaseFunctionality_{D91911BC-666B-4A98-9B56-72B146422A54}="0"></SETTING>
+                    <SETTING CbxCustomBuildIncludeInBuildPRC="0"></SETTING>
+                    </CONFIGURATION>
+                <CONFIGURATION NAME="Release"></CONFIGURATION>
+                </CONFIGURATIONS>
+            </FILE>
+        <FILE FILENAME="MathLib.h">
+            <CONFIGURATIONS DEFAULT="-1">
+                <CONFIGURATION NAME="Debug">
+                    <SETTING ExcludeFromBuild="1"></SETTING>
+                    <SETTING UseCustomBuildStep="1"></SETTING>
+                    <SETTING cbOptimalization="-1"></SETTING>
+                    <SETTING chkDebugInfo="1"></SETTING>
+                    <SETTING WarningLevel="-1"></SETTING>
+                    <SETTING chkWarningsAsErrors="0"></SETTING>
+                    <SETTING DatabaseFunctionality_{01D20182-D705-4B32-B471-F7C221A9EF80}="0"></SETTING>
+                    <SETTING DatabaseFunctionality_{B55ECED2-DB5B-45B2-AADA-0C93EE5F339A}="0"></SETTING>
+                    <SETTING DatabaseFunctionality_{D91911BC-666B-4A98-9B56-72B146422A54}="0"></SETTING>
+                    <SETTING CbxCustomBuildIncludeInBuildPRC="0"></SETTING>
+                    </CONFIGURATION>
+                <CONFIGURATION NAME="Release"></CONFIGURATION>
+                </CONFIGURATIONS>
+            </FILE>
+        </FOLDER>
+    <FOLDER NAME="Resources">
+        <FILE FILENAME="matro2.rcp">
+            <CONFIGURATIONS DEFAULT="-1">
+                <CONFIGURATION NAME="Debug">
+                    <SETTING ExcludeFromBuild="0"></SETTING>
+                    <SETTING UseCustomBuildStep="0"></SETTING>
+                    </CONFIGURATION>
+                <CONFIGURATION NAME="Release">
+                    <SETTING ExcludeFromBuild="0"></SETTING>
+                    <SETTING UseCustomBuildStep="0"></SETTING>
+                    </CONFIGURATION>
+                </CONFIGURATIONS>
+            </FILE>
+        </FOLDER>
+    <CONFIGURATIONS DEFAULT="1">
+        <CONFIGURATION NAME="Debug">
+            <SETTING SNAPIN="Falch.Net PalmPilot SnapIn"></SETTING>
+            <SETTING ICONTEXT="MaTreo"></SETTING>
+            <SETTING APPID="MTRO"></SETTING>
+            <SETTING AUTOBUILDMAKEFILE="1"></SETTING>
+            <SETTING c="pp"></SETTING>
+            <SETTING TARGETOS="4"></SETTING>
+            <SETTING PRCTOOLS="1"></SETTING>
+            <SETTING IsLibrary="0"></SETTING>
+            <SETTING MULTIPLESEGMENTS="0"></SETTING>
+            <SETTING STDAPP="1"></SETTING>
+            <SETTING HACK="0"></SETTING>
+            <SETTING AUTOBUILDRCPHEADER="1"></SETTING>
+            <SETTING AUTOBUILDDEFFILE="1"></SETTING>
+            <SETTING PRCFILENAME="./Debug/matreo.prc"></SETTING>
+            <SETTING rgrMakeJobType="0"></SETTING>
+            <SETTING txtMakeJobCount="1"></SETTING>
+            <SETTING cbxMakeKeepGoing="0"></SETTING>
+            <SETTING CbxCopyPrevention="0"></SETTING>
+            <SETTING LINKER_TYPE="0"></SETTING>
+            <SETTING cboProfile="-1"></SETTING>
+            <SETTING NO_POSE="0"></SETTING>
+            <SETTING DEBUG_TARGET=""></SETTING>
+            <SETTING cboProfileex="yo"></SETTING>
+            </CONFIGURATION>
+        <CONFIGURATION NAME="Release">
+            <SETTING SNAPIN="Falch.Net PalmPilot SnapIn"></SETTING>
+            <SETTING ICONTEXT="MaTreo"></SETTING>
+            <SETTING APPID="MTRO"></SETTING>
+            <SETTING AUTOBUILDMAKEFILE="1"></SETTING>
+            <SETTING c="pp"></SETTING>
+            <SETTING TARGETOS="4"></SETTING>
+            <SETTING PRCTOOLS="1"></SETTING>
+            <SETTING IsLibrary="0"></SETTING>
+            <SETTING MULTIPLESEGMENTS="0"></SETTING>
+            <SETTING STDAPP="1"></SETTING>
+            <SETTING HACK="0"></SETTING>
+            <SETTING AUTOBUILDRCPHEADER="1"></SETTING>
+            <SETTING AUTOBUILDDEFFILE="1"></SETTING>
+            <SETTING PRCFILENAME="./Release/matreo.prc"></SETTING>
+            <SETTING rgrMakeJobType="0"></SETTING>
+            <SETTING txtMakeJobCount="1"></SETTING>
+            <SETTING cbxMakeKeepGoing="0"></SETTING>
+            <SETTING CbxCopyPrevention="0"></SETTING>
+            <SETTING LINKER_TYPE="0"></SETTING>
+            <SETTING cboProfile="-1"></SETTING>
+            <SETTING NO_POSE="0"></SETTING>
+            </CONFIGURATION>
+        </CONFIGURATIONS>
+    </FNProject>
